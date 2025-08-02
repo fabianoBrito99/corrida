@@ -1,0 +1,74 @@
+.pageWrapper {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #ffffff, #ffffff);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(255, 4, 4, 0.568);
+}
+
+.qrContainer {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 1rem;
+  }
+}
+
+.option select{
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pixBox {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 10px;
+  word-break: break-all;
+  margin-top: 1rem;
+  text-align: left;
+  max-width: 100%;
+  position: relative;
+}
+
+.copyBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: #0a0f3d;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
